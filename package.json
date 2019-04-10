@@ -4,12 +4,21 @@
 	"description": "",
 	"version": "0.0.2",
 	"publisher": "Rwing",
+	"icon": "resources/icon.png",
 	"engines": {
-		"vscode": "^1.33.0"
+		"vscode": "^1.0.0"
 	},
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/Rwing/vscode-minesweeper"
+    },
 	"categories": [
 		"Other"
 	],
+	"keywords": [
+        "minesweeper",
+        "game"
+    ],
 	"activationEvents": [
 		"onCommand:extension.minesweeper"
 	],
