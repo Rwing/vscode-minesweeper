@@ -27,7 +27,7 @@ export function activate(context: vscode.ExtensionContext) {
 				retainContextWhenHidden: true, 
 			}
 		);
-		panel.webview.html = getWebViewContent(context, "/game/index.html");
+		panel.webview.html = getWebViewContent(context, "/game/index.html").replace(".wrapper {", ".wrapper { \r\n background-color: #fff;");
 	});
 
 	context.subscriptions.push(disposable);
