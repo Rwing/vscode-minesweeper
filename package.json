@@ -2,7 +2,7 @@
 	"name": "minesweeper",
 	"displayName": "minesweeper",
 	"description": "",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"publisher": "Rwing",
 	"icon": "resources/icon.png",
 	"engines": {
